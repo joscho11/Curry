@@ -4,14 +4,15 @@ by Joseph Schoenbaum
 
 Introduction: It's a general agreement in the basketball community that Stephen Curry is the greatest shooter of all time. Just this week, Damian Lillard, who many consider the current 2nd best shooter in the world behind Curry, stated, “Steph is right behind Magic (highly regarded as the best point guard to ever play an NBA game) in the way he has changed the game and the excitement with his style of play”. That is incredible respect from one of Curry's main rivals in the NBA. In mainstream media, it seems as if everyone agrees Curry is a great player, but people don't seem to give him the credit for how much he has impacted the NBA game. An NBA game played in 2010 looks like a completely different sport compared to an NBA game played today. Sure, you can spit out Curry's points per game average, his NBA all-time free throw percentage (90.7%), or his 3 championships, but those are elementary statistics that only show a sliver of Curry's impact. I want to help people better understand the game of basketball, and I'm going to do my best to portray why I believe Stephen Curry is one of the most influential players to steph (haha see what I did there) foot onto an NBA court.
 
-#We will start by importing the libraries necessary to do the analysis
-import requests as req
-from bs4 import BeautifulSoup
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import statsmodels.formula.api as sm
-from sklearn import linear_model
+    #We will start by importing the libraries necessary to do the analysis
+    import requests as req
+    from bs4 import BeautifulSoup
+    import pandas as pd
+    import numpy as np
+    import matplotlib.pyplot as plt
+    import statsmodels.formula.api as sm
+    from sklearn import linear_model
+    
 Source: The website I will be gathering data from is called https://www.basketball-reference.com. The site has statistics about every NBA season dating back to 1946.
 
 First we will take a look at Stephen Curry's individual seasons throughout his career from 2010-2021.
@@ -99,6 +100,7 @@ Note: Steph Curry has played over 20 games in each season except 2020 (He will N
            three_table['Player'].tolist()[i] == "Paul George" or three_table['Player'].tolist()[i] == "Buddy Hield"):
             plt.annotate(three_table['Player'].tolist()[i], (three_table['3P%'].tolist()[i], three_table['3P'].tolist()[i]))
     plt.tight_layout()
+    
      Rk            Player Season Age   G   3P  3PA    3P%   PTS
 2    62      Aaron Brooks   2010  25  82  2.5  6.4  0.398  19.6
 7   165     Danny Granger   2010  26  62  2.5  7.1  0.361  24.1
@@ -271,34 +273,34 @@ As you can see during the first 3 season of Curry's career he only shot around 5
 
 Impressively, Curry was top 10 in 3PM 10 out of the 12 season he's been in the NBA and the two season he missed were due to injury. No other player appeared more than 6 times. In addition, he was in 1st place 8 of the 10 season he was on the list. That is unprecedented! The graphs paint an even clearer picture of just how good Steph Curry is. From 2013 onward, Steph Curry is in a class of his own. He is a true outlier from the data. The thing that makes this so incredible is this isn't normal NBA player data. I picked the best 3-point shooters from each year and compared them to Curry, yet he's still an outlier from the rest of the best 3-point shooters in the world.
 
-#combine all data from last cell
+    #combine all data from last cell
 
-#start by adding 1st table to a new table and appending on the rest
-big_table = years_data[0]
-for i in range(len(years_data)):
-    big_table = big_table.append(years_data[i], ignore_index=True)
+    #start by adding 1st table to a new table and appending on the rest
+    big_table = years_data[0]
+    for i in range(len(years_data)):
+        big_table = big_table.append(years_data[i], ignore_index=True)
 
-#linear regression
-three_percent = [ [i] for i in big_table['3P%'].values]
-    
-lr = linear_model.LinearRegression()
-equation = lr.fit(three_percent, big_table['3P'].values)
+    #linear regression
+    three_percent = [ [i] for i in big_table['3P%'].values]
 
-#plotting data values
-plt.figure(figsize=(15, 10))
-plt.scatter(big_table['3P%'], big_table['3P'], label=x)
-plt.plot(big_table['3P%'], lr.predict(three_percent), color='red')
-plt.title("3-point field goal percentage vs. 3-point field goals made from 2010 - 2021")
-plt.xlabel("3P%")
-plt.ylabel("3PM")
+    lr = linear_model.LinearRegression()
+    equation = lr.fit(three_percent, big_table['3P'].values)
 
-year = 2010
-#show Steph Curry's data points
-for i in range(big_table.shape[0]):
-    if(big_table['Player'].tolist()[i] == "Stephen Curry"):
-        plt.annotate(big_table['Player'].tolist()[i] + "\n" + str(year), (big_table['3P%'].tolist()[i], big_table['3P'].tolist()[i]))
-        year = year + 1
-plt.tight_layout()
+    #plotting data values
+    plt.figure(figsize=(15, 10))
+    plt.scatter(big_table['3P%'], big_table['3P'], label=x)
+    plt.plot(big_table['3P%'], lr.predict(three_percent), color='red')
+    plt.title("3-point field goal percentage vs. 3-point field goals made from 2010 - 2021")
+    plt.xlabel("3P%")
+    plt.ylabel("3PM")
+
+    year = 2010
+    #show Steph Curry's data points
+    for i in range(big_table.shape[0]):
+        if(big_table['Player'].tolist()[i] == "Stephen Curry"):
+            plt.annotate(big_table['Player'].tolist()[i] + "\n" + str(year), (big_table['3P%'].tolist()[i], big_table['3P'].tolist()[i]))
+            year = year + 1
+    plt.tight_layout()
 
 To wrap up Curry's individual statistical analysis I took all data points from our graphs above and made a big graph to see how Curry stacked up throughout the years. Not suprisingly, Steph curry is basically competing with himself. He holds 9 of the most efficent 3-point season to date. This graph could be a bit misleading though because from 2010-2021 3-point shooting has increased at an incredible rate. The main reason teams are shooting more three is because of how Steph Curry destroyed them in his earlier years. This makes the older data points seem weaker and less impressive since they shot less 3-pointers per game in 2010 compared to 2021. Even still, older data points on Curry hold up relatively well as show above.
 
@@ -306,17 +308,17 @@ Hopefully the graphs and tables above show how impressive Curry has been through
 
 For this table I had to switch sources because NBA references tables for teams was commented out in their HTML so I couldn't get the table correctly formatted. Instead I used ESPN (https://www.espn.com/). This site is public and has a lot of data on any popular sport. I'm going to be taking team seasonal statistics for each season Curry has been in the league.
 
-#year and averages list for each season
-year = 2010
-averages = []
+    #year and averages list for each season
+    year = 2010
+    averages = []
 
-#loop through season
-for i in range(12):
-    #web scraping and creating a dataframe
-    team_stats = pd.DataFrame(columns=["Rk", "Team", "3P", "3PA", "3P%", "PTS"])
-    teams = req.get("https://www.espn.com/nba/stats/team/_/season/" + str(year) + "/seasontype/2")
-    teams_tables = pd.read_html(teams.text, flavor='bs4')
-    stats = teams_tables[1]
+    #loop through season
+    for i in range(12):
+        #web scraping and creating a dataframe
+        team_stats = pd.DataFrame(columns=["Rk", "Team", "3P", "3PA", "3P%", "PTS"])
+        teams = req.get("https://www.espn.com/nba/stats/team/_/season/" + str(year) + "/seasontype/2")
+        teams_tables = pd.read_html(teams.text, flavor='bs4')
+        stats = teams_tables[1]
     
     #getting average 3PA per season
     average = 0
@@ -335,13 +337,13 @@ for i in range(12):
     #going to next year
     year = year + 1
 
-#plot averages of 3PA from 2010-2021
-plt.figure(figsize=(15, 10))
-plt.scatter([2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021], averages, label=x)
-plt.title("League average 3-point attempts per game from 2010 - 2021")
-plt.xlabel("Year")
-plt.ylabel("Average 3PA per game")
-Text(0, 0.5, 'Average 3PA per game')
+    #plot averages of 3PA from 2010-2021
+    plt.figure(figsize=(15, 10))
+    plt.scatter([2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021], averages, label=x)
+    plt.title("League average 3-point attempts per game from 2010 - 2021")
+    plt.xlabel("Year")
+    plt.ylabel("Average 3PA per game")
+    Text(0, 0.5, 'Average 3PA per game')
 
 
 
