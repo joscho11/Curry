@@ -102,159 +102,159 @@ Note: Steph Curry has played over 20 games in each season except 2020 (He will N
     plt.tight_layout()
     
      Rk            Player Season Age   G   3P  3PA    3P%   PTS
-2    62      Aaron Brooks   2010  25  82  2.5  6.4  0.398  19.6
-7   165     Danny Granger   2010  26  62  2.5  7.1  0.361  24.1
-6   145  Danilo Gallinari   2010  21  81  2.3    6  0.381  15.1
-9   257     Rashard Lewis   2010  30  72  2.3  5.9  0.397  14.1
-14  431       Mo Williams   2010  27  69  2.3  5.4  0.429  15.8
-1    45  Chauncey Billups   2010  33  73  2.2  5.6  0.386  19.5
-8   245       Jason Kidd*   2010  36  80  2.2  5.2  0.425  10.3
-3    96    Jamal Crawford   2010  29  79  2.1  5.4  0.382    18
-4   100     Stephen Curry   2010  21  80  2.1  4.8  0.437  17.5
-5   142     Channing Frye   2010  26  81  2.1  4.8  0.439  11.2
+    2    62      Aaron Brooks   2010  25  82  2.5  6.4  0.398  19.6
+    7   165     Danny Granger   2010  26  62  2.5  7.1  0.361  24.1
+    6   145  Danilo Gallinari   2010  21  81  2.3    6  0.381  15.1
+    9   257     Rashard Lewis   2010  30  72  2.3  5.9  0.397  14.1
+    14  431       Mo Williams   2010  27  69  2.3  5.4  0.429  15.8
+    1    45  Chauncey Billups   2010  33  73  2.2  5.6  0.386  19.5
+    8   245       Jason Kidd*   2010  36  80  2.2  5.2  0.425  10.3
+    3    96    Jamal Crawford   2010  29  79  2.1  5.4  0.382    18
+    4   100     Stephen Curry   2010  21  80  2.1  4.8  0.437  17.5
+    5   142     Channing Frye   2010  26  81  2.1  4.8  0.439  11.2
 
 
      Rk            Player Season Age   G   3P  3PA    3P%   PTS
-14  351  Jason Richardson   2011  30  25  2.5  5.9  0.419  19.3
-18  448     Dorell Wright   2011  25  82  2.4  6.3  0.376  16.4
-13  351  Jason Richardson   2011  30  80  2.4    6  0.395  15.6
-15  351  Jason Richardson   2011  30  55  2.3    6  0.384  13.9
-3    19    Gilbert Arenas   2011  29  21  2.2  6.9  0.324  17.3
-12  276      Kevin Martin   2011  27  80  2.2  5.7  0.383  23.5
-10  153     Channing Frye   2011  27  77  2.2  5.7   0.39  12.7
-1    16     Ryan Anderson   2011  22  64  2.1  5.3  0.393  10.6
-0     9        Ray Allen*   2011  35  80  2.1  4.7  0.444  16.5
-6    46  Chauncey Billups   2011  34  51  2.1  4.7  0.441  16.5
+    14  351  Jason Richardson   2011  30  25  2.5  5.9  0.419  19.3
+    18  448     Dorell Wright   2011  25  82  2.4  6.3  0.376  16.4
+    13  351  Jason Richardson   2011  30  80  2.4    6  0.395  15.6
+    15  351  Jason Richardson   2011  30  55  2.3    6  0.384  13.9
+    3    19    Gilbert Arenas   2011  29  21  2.2  6.9  0.324  17.3
+    12  276      Kevin Martin   2011  27  80  2.2  5.7  0.383  23.5
+    10  153     Channing Frye   2011  27  77  2.2  5.7   0.39  12.7
+    1    16     Ryan Anderson   2011  22  64  2.1  5.3  0.393  10.6
+    0     9        Ray Allen*   2011  35  80  2.1  4.7  0.444  16.5
+    6    46  Chauncey Billups   2011  34  51  2.1  4.7  0.441  16.5
 
 
      Rk           Player Season Age   G   3P  3PA    3P%   PTS
-1    16    Ryan Anderson   2012  23  61  2.7  6.9  0.393  16.1
-11  332      Steve Novak   2012  28  54  2.5  5.2  0.472   8.8
-0     8       Ray Allen*   2012  36  46  2.3  5.1  0.453  14.2
-12  412      Jason Terry   2012  34  63  2.2  5.8  0.378  15.1
-2   102    Stephen Curry   2012  23  26  2.1  4.7  0.455  14.7
-8   250      Joe Johnson   2012  30  60  2.1  5.4  0.388  18.8
-13  424  Marcus Thornton   2012  24  51  2.1  6.1  0.345  18.7
-14  460   Deron Williams   2012  27  55  2.1  6.2  0.336    21
-3   126     Kevin Durant   2012  23  66    2  5.2  0.387    28
-4   153       Randy Foye   2012  28  65    2  5.1  0.386    11
+    1    16    Ryan Anderson   2012  23  61  2.7  6.9  0.393  16.1
+    11  332      Steve Novak   2012  28  54  2.5  5.2  0.472   8.8
+    0     8       Ray Allen*   2012  36  46  2.3  5.1  0.453  14.2
+    12  412      Jason Terry   2012  34  63  2.2  5.8  0.378  15.1
+    2   102    Stephen Curry   2012  23  26  2.1  4.7  0.455  14.7
+    8   250      Joe Johnson   2012  30  60  2.1  5.4  0.388  18.8
+    13  424  Marcus Thornton   2012  24  51  2.1  6.1  0.345  18.7
+    14  460   Deron Williams   2012  27  55  2.1  6.2  0.336    21
+    3   126     Kevin Durant   2012  23  66    2  5.2  0.387    28
+    4   153       Randy Foye   2012  28  65    2  5.1  0.386    11
 
 
      Rk           Player Season Age   G   3P  3PA    3P%   PTS
-5    97    Stephen Curry   2013  24  78  3.5  7.7  0.453  22.9
-0    15    Ryan Anderson   2013  24  81  2.6  6.9  0.382  16.2
-21  416    Klay Thompson   2013  22  82  2.6  6.4  0.401  16.6
-13  249      Kyle Korver   2013  31  74  2.6  5.6  0.457  10.9
-6   105   Carlos Delfino   2013  30  67  2.4  6.3  0.375  10.6
-16  282  Wesley Matthews   2013  26  69  2.4  6.2  0.398  14.8
-1    16  Carmelo Anthony   2013  28  67  2.3  6.2  0.379  28.7
-2    34    Nicolas Batum   2013  24  73  2.3  6.1  0.372  14.3
-20  354      J.J. Redick   2013  28  50  2.3    6   0.39  15.1
-14  264   Damian Lillard   2013  22  82  2.3  6.1  0.368    19
+    5    97    Stephen Curry   2013  24  78  3.5  7.7  0.453  22.9
+    0    15    Ryan Anderson   2013  24  81  2.6  6.9  0.382  16.2
+    21  416    Klay Thompson   2013  22  82  2.6  6.4  0.401  16.6
+    13  249      Kyle Korver   2013  31  74  2.6  5.6  0.457  10.9
+    6   105   Carlos Delfino   2013  30  67  2.4  6.3  0.375  10.6
+    16  282  Wesley Matthews   2013  26  69  2.4  6.2  0.398  14.8
+    1    16  Carmelo Anthony   2013  28  67  2.3  6.2  0.379  28.7
+    2    34    Nicolas Batum   2013  24  73  2.3  6.1  0.372  14.3
+    20  354      J.J. Redick   2013  28  50  2.3    6   0.39  15.1
+    14  264   Damian Lillard   2013  22  82  2.3  6.1  0.368    19
 
 
      Rk           Player Season Age   G   3P  3PA    3P%   PTS
-8   111    Stephen Curry   2014  25  78  3.3  7.9  0.424    24
-0    16    Ryan Anderson   2014  25  22    3  7.5  0.409  19.8
-26  430    Klay Thompson   2014  23  81  2.8  6.6  0.417  18.4
-17  273   Damian Lillard   2014  23  82  2.7  6.8  0.394  20.7
-25  402       J.R. Smith   2014  28  74  2.6  6.5  0.394  14.5
-16  255      Kyle Korver   2014  32  71  2.6  5.5  0.472    12
-13  177     Gerald Green   2014  28  82  2.5  6.2    0.4  15.8
-20  289  Wesley Matthews   2014  27  82  2.5  6.2  0.393  16.4
-18  278       Kevin Love   2014  25  77  2.5  6.6  0.376  26.1
-19  279       Kyle Lowry   2014  27  79  2.4  6.3   0.38  17.9
+    8   111    Stephen Curry   2014  25  78  3.3  7.9  0.424    24
+    0    16    Ryan Anderson   2014  25  22    3  7.5  0.409  19.8
+    26  430    Klay Thompson   2014  23  81  2.8  6.6  0.417  18.4
+    17  273   Damian Lillard   2014  23  82  2.7  6.8  0.394  20.7
+    25  402       J.R. Smith   2014  28  74  2.6  6.5  0.394  14.5
+    16  255      Kyle Korver   2014  32  71  2.6  5.5  0.472    12
+    13  177     Gerald Green   2014  28  82  2.5  6.2    0.4  15.8
+    20  289  Wesley Matthews   2014  27  82  2.5  6.2  0.393  16.4
+    18  278       Kevin Love   2014  25  77  2.5  6.6  0.376  26.1
+    19  279       Kyle Lowry   2014  27  79  2.4  6.3   0.38  17.9
 
 
      Rk            Player Season Age   G   3P  3PA    3P%   PTS
-5   112     Stephen Curry   2015  26  80  3.6  8.1  0.443  23.8
-22  442     Klay Thompson   2015  24  77  3.1  7.1  0.439  21.7
-15  300   Wesley Matthews   2015  28  60  2.9  7.4  0.389  15.9
-13  266       Kyle Korver   2015  33  75  2.9    6  0.492  12.1
-20  415        J.R. Smith   2015  29  46  2.8  7.3   0.39  12.7
-3    82     Isaiah Canaan   2015  23  22  2.7  7.4  0.364  12.6
-18  381       J.J. Redick   2015  30  78  2.6  5.9  0.437  16.4
-9   197      James Harden   2015  25  81  2.6  6.9  0.375  27.4
-4   105  Robert Covington   2015  24  70  2.4  6.4  0.374  13.5
-6   139      Kevin Durant   2015  26  27  2.4  5.9  0.403  25.4
+    5   112     Stephen Curry   2015  26  80  3.6  8.1  0.443  23.8
+    22  442     Klay Thompson   2015  24  77  3.1  7.1  0.439  21.7
+    15  300   Wesley Matthews   2015  28  60  2.9  7.4  0.389  15.9
+    13  266       Kyle Korver   2015  33  75  2.9    6  0.492  12.1
+    20  415        J.R. Smith   2015  29  46  2.8  7.3   0.39  12.7
+    3    82     Isaiah Canaan   2015  23  22  2.7  7.4  0.364  12.6
+    18  381       J.J. Redick   2015  30  78  2.6  5.9  0.437  16.4
+    9   197      James Harden   2015  25  81  2.6  6.9  0.375  27.4
+    4   105  Robert Covington   2015  24  70  2.4  6.4  0.374  13.5
+    6   139      Kevin Durant   2015  26  27  2.4  5.9  0.403  25.4
 
 
      Rk          Player Season Age   G   3P   3PA    3P%   PTS
-6   105   Stephen Curry   2016  27  79  5.1  11.2  0.454  30.1
-26  425   Klay Thompson   2016  25  80  3.5   8.1  0.425  22.1
-15  266  Damian Lillard   2016  25  75  3.1   8.1  0.375  25.1
-11  177    James Harden   2016  26  82  2.9     8  0.359    29
-17  273      Kyle Lowry   2016  29  77  2.8   7.1  0.388  21.2
-22  369     J.J. Redick   2016  31  75  2.7   5.6  0.475  16.3
-23  402      J.R. Smith   2016  30  77  2.6   6.6    0.4  12.4
-7   126    Kevin Durant   2016  27  72  2.6   6.7  0.387  28.2
-9   153     Paul George   2016  25  81  2.6     7  0.371  23.1
-10  160     Eric Gordon   2016  27  45  2.5   6.5  0.384  15.2
+    6   105   Stephen Curry   2016  27  79  5.1  11.2  0.454  30.1
+    26  425   Klay Thompson   2016  25  80  3.5   8.1  0.425  22.1
+    15  266  Damian Lillard   2016  25  75  3.1   8.1  0.375  25.1
+    11  177    James Harden   2016  26  82  2.9     8  0.359    29
+    17  273      Kyle Lowry   2016  29  77  2.8   7.1  0.388  21.2
+    22  369     J.J. Redick   2016  31  75  2.7   5.6  0.475  16.3
+    23  402      J.R. Smith   2016  30  77  2.6   6.6    0.4  12.4
+    7   126    Kevin Durant   2016  27  72  2.6   6.7  0.387  28.2
+    9   153     Paul George   2016  25  81  2.6     7  0.371  23.1
+    10  160     Eric Gordon   2016  27  45  2.5   6.5  0.384  15.2
 
 
      Rk          Player Season Age   G   3P  3PA    3P%   PTS
-10   98   Stephen Curry   2017  28  79  4.1   10  0.411  25.3
-37  428   Klay Thompson   2017  26  78  3.4  8.3  0.414  22.3
-15  158     Eric Gordon   2017  28  75  3.3  8.8  0.372  16.2
-36  425   Isaiah Thomas   2017  27  76  3.2  8.5  0.379  28.9
-28  274      Kyle Lowry   2017  30  60  3.2  7.8  0.412  22.4
-16  172    James Harden   2017  27  81  3.2  9.3  0.347  29.1
-38  452    Kemba Walker   2017  26  79    3  7.6  0.399  23.2
-3    36    Bradley Beal   2017  23  77  2.9  7.2  0.404  23.1
-26  266  Damian Lillard   2017  26  75  2.9  7.7   0.37    27
-0    15   Ryan Anderson   2017  28  72  2.8    7  0.403  13.6
+    10   98   Stephen Curry   2017  28  79  4.1   10  0.411  25.3
+    37  428   Klay Thompson   2017  26  78  3.4  8.3  0.414  22.3
+    15  158     Eric Gordon   2017  28  75  3.3  8.8  0.372  16.2
+    36  425   Isaiah Thomas   2017  27  76  3.2  8.5  0.379  28.9
+    28  274      Kyle Lowry   2017  30  60  3.2  7.8  0.412  22.4
+    16  172    James Harden   2017  27  81  3.2  9.3  0.347  29.1
+    38  452    Kemba Walker   2017  26  79    3  7.6  0.399  23.2
+    3    36    Bradley Beal   2017  23  77  2.9  7.2  0.404  23.1
+    26  266  Damian Lillard   2017  26  75  2.9  7.7   0.37    27
+    0    15   Ryan Anderson   2017  28  72  2.8    7  0.403  13.6
 
 
      Rk           Player Season Age   G   3P  3PA    3P%   PTS
-12  120    Stephen Curry   2018  29  51  4.2  9.8  0.423  26.4
-23  194     James Harden   2018  28  72  3.7   10  0.367  30.4
-20  180      Eric Gordon   2018  29  69  3.2  8.8  0.359    18
-18  173      Paul George   2018  27  79  3.1  7.7  0.401  21.9
-36  298   Damian Lillard   2018  27  73  3.1  8.6  0.361  26.9
-55  480    Klay Thompson   2018  27  73  3.1  7.1   0.44    20
-38  305       Kyle Lowry   2018  31  78  3.1  7.6  0.399  16.2
-57  498     Kemba Walker   2018  27  80  2.9  7.5  0.384  22.1
-15  146  Wayne Ellington   2018  30  77  2.9  7.5  0.392  11.2
-33  239     Kyrie Irving   2018  25  60  2.8  6.8  0.408  24.4
+    12  120    Stephen Curry   2018  29  51  4.2  9.8  0.423  26.4
+    23  194     James Harden   2018  28  72  3.7   10  0.367  30.4
+    20  180      Eric Gordon   2018  29  69  3.2  8.8  0.359    18
+    18  173      Paul George   2018  27  79  3.1  7.7  0.401  21.9
+    36  298   Damian Lillard   2018  27  73  3.1  8.6  0.361  26.9
+    55  480    Klay Thompson   2018  27  73  3.1  7.1   0.44    20
+    38  305       Kyle Lowry   2018  31  78  3.1  7.6  0.399  16.2
+    57  498     Kemba Walker   2018  27  80  2.9  7.5  0.384  22.1
+    15  146  Wayne Ellington   2018  30  77  2.9  7.5  0.392  11.2
+    33  239     Kyrie Irving   2018  25  60  2.8  6.8  0.408  24.4
 
 
      Rk            Player Season Age   G   3P   3PA    3P%   PTS
-15  124     Stephen Curry   2019  30  69  5.1  11.7  0.437  27.3
-29  206      James Harden   2019  29  78  4.8  13.2  0.368  36.1
-22  183       Paul George   2019  28  77  3.8   9.8  0.386    28
-32  224       Buddy Hield   2019  26  82  3.4   7.9  0.427  20.7
-66  497      Kemba Walker   2019  28  82  3.2   8.9  0.356  25.6
-58  418       J.J. Redick   2019  34  76  3.2     8  0.397  18.1
-23  190       Eric Gordon   2019  30  68  3.2   8.8   0.36  16.2
-64  477     Klay Thompson   2019  28  78  3.1   7.7  0.402  21.5
-41  305    Damian Lillard   2019  28  80    3     8  0.369  25.8
-61  434  D'Angelo Russell   2019  22  81  2.9   7.8  0.369  21.1
+    15  124     Stephen Curry   2019  30  69  5.1  11.7  0.437  27.3
+    29  206      James Harden   2019  29  78  4.8  13.2  0.368  36.1
+    22  183       Paul George   2019  28  77  3.8   9.8  0.386    28
+    32  224       Buddy Hield   2019  26  82  3.4   7.9  0.427  20.7
+    66  497      Kemba Walker   2019  28  82  3.2   8.9  0.356  25.6
+    58  418       J.J. Redick   2019  34  76  3.2     8  0.397  18.1
+    23  190       Eric Gordon   2019  30  68  3.2   8.8   0.36  16.2
+    64  477     Klay Thompson   2019  28  78  3.1   7.7  0.402  21.5
+    41  305    Damian Lillard   2019  28  80    3     8  0.369  25.8
+    61  434  D'Angelo Russell   2019  22  81  2.9   7.8  0.369  21.1
 
 
      Rk            Player Season Age   G   3P   3PA    3P%   PTS
-27  198      James Harden   2020  30  68  4.4  12.4  0.355  34.3
-42  297    Damian Lillard   2020  29  66  4.1  10.2  0.401    30
-30  218       Buddy Hield   2020  27  72  3.8   9.6  0.394  19.2
-59  424   Duncan Robinson   2020  25  73  3.7   8.3  0.446  13.5
-2    41     Dāvis Bertāns   2020  27  54  3.7   8.7  0.424  15.4
-63  435  D'Angelo Russell   2020  23  33  3.6   9.7  0.374  23.6
-25  180   Devonte' Graham   2020  24  63  3.5   9.3  0.373  18.2
-62  435  D'Angelo Russell   2020  23  45  3.5   9.6  0.367  23.1
-76  525        Trae Young   2020  21  60  3.4   9.5  0.361  29.6
-23  172       Paul George   2020  29  48  3.3   7.9  0.412  21.5
+    27  198      James Harden   2020  30  68  4.4  12.4  0.355  34.3
+    42  297    Damian Lillard   2020  29  66  4.1  10.2  0.401    30
+    30  218       Buddy Hield   2020  27  72  3.8   9.6  0.394  19.2
+    59  424   Duncan Robinson   2020  25  73  3.7   8.3  0.446  13.5
+    2    41     Dāvis Bertāns   2020  27  54  3.7   8.7  0.424  15.4
+    63  435  D'Angelo Russell   2020  23  33  3.6   9.7  0.374  23.6
+    25  180   Devonte' Graham   2020  24  63  3.5   9.3  0.373  18.2
+    62  435  D'Angelo Russell   2020  23  45  3.5   9.6  0.367  23.1
+    76  525        Trae Young   2020  21  60  3.4   9.5  0.361  29.6
+    23  172       Paul George   2020  29  48  3.3   7.9  0.412  21.5
 
 
      Rk            Player Season Age   G   3P   3PA    3P%   PTS
-18  115     Stephen Curry   2021  32  62  5.3  12.6  0.421  31.8
-55  296    Damian Lillard   2021  30  66  4.1  10.5  0.388  28.9
-43  217       Buddy Hield   2021  28  70    4  10.2  0.394  16.6
-59  327       CJ McCollum   2021  29  46  3.6   8.9  0.399  23.1
-4    39     Malik Beasley   2021  24  37  3.5   8.7  0.399  19.6
-73  431   Duncan Robinson   2021  26  70  3.5   8.5  0.407  13.1
-54  285       Zach LaVine   2021  25  58  3.4   8.2  0.419  27.4
-62  347  Donovan Mitchell   2021  24  53  3.4   8.7  0.386  26.4
-74  440      Terry Rozier   2021  26  67  3.3   8.3  0.391  20.5
-81  498     Fred VanVleet   2021  26  52  3.3   9.2  0.366  19.6
+    18  115     Stephen Curry   2021  32  62  5.3  12.6  0.421  31.8
+    55  296    Damian Lillard   2021  30  66  4.1  10.5  0.388  28.9
+    43  217       Buddy Hield   2021  28  70    4  10.2  0.394  16.6
+    59  327       CJ McCollum   2021  29  46  3.6   8.9  0.399  23.1
+    4    39     Malik Beasley   2021  24  37  3.5   8.7  0.399  19.6
+    73  431   Duncan Robinson   2021  26  70  3.5   8.5  0.407  13.1
+    54  285       Zach LaVine   2021  25  58  3.4   8.2  0.419  27.4
+    62  347  Donovan Mitchell   2021  24  53  3.4   8.7  0.386  26.4
+    74  440      Terry Rozier   2021  26  67  3.3   8.3  0.391  20.5
+    81  498     Fred VanVleet   2021  26  52  3.3   9.2  0.366  19.6
 
 
 
