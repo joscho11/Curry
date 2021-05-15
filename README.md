@@ -29,15 +29,16 @@ Then I graphed each data point with 3P% as the x value and 3PM as the y value. w
 After all that, I want to take all seasons from 2010 to 2021 and combine them into a table. The regression line for this is very linear. This graph of all data points can show the totality of Curry's dominance.
 
 Note: Steph Curry has played over 20 games in each season except 2020 (He will NOT be on the 2020 graph).
-#going through all nba season that Stephen Curry has played
-#putting all players who made more than 2 threes per game in that season and played more than a quarter of the season (20 of 82 games (2011-2012 was a shortened season so there are less data points)) on a graph (3P% vs. 3PM) with the regresion line for the average of those players
 
-#year for url and place to store table for that year
-year = 2010
-years_data = []
+    #going through all nba season that Stephen Curry has played
+    #putting all players who made more than 2 threes per game in that season and played more than a quarter of the season (20 of 82 games (2011-2012 was a shortened season so        there are less data points)) on a graph (3P% vs. 3PM) with the regresion line for the average of those players
 
-#loop through each url to get data
-for i in range(12):
+    #year for url and place to store table for that year
+    year = 2010
+    years_data = []
+
+    #loop through each url to get data
+    for i in range(12):
 
     #web scraping and placing data in table
     season = req.get("https://www.basketball-reference.com/leagues/NBA_" + str(year) + "_per_game.html")
