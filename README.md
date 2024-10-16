@@ -1,0 +1,2 @@
+Overview
+This project investigates the impact that NBA player Stephen Curry has had on the league, particularly in the areas of team performance, scoring trends, and three-point shooting. Through statistical analysis and predictive modeling, we aim to quantify Curry's influence and understand how his game has revolutionized basketball, especially with the rise of three-point shooting as a core strategy.
